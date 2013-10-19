@@ -387,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS7UtilityApp/iOS7UtilityApp-Prefix.pch";
 				INFOPLIST_FILE = "iOS7UtilityApp/iOS7UtilityApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS7UtilityApp/iOS7UtilityApp-Prefix.pch";
 				INFOPLIST_FILE = "iOS7UtilityApp/iOS7UtilityApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +468,7 @@
 				42CD61691810D6A300376EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42CD616A1810D6A300376EBB /* Build configuration list for PBXNativeTarget "iOS7UtilityAppTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +477,7 @@
 				42CD616C1810D6A300376EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

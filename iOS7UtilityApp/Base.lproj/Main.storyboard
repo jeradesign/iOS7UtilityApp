@@ -71,7 +71,7 @@
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="yKX-hu-Bw4">
-                        <barButtonItem key="leftBarButtonItem" title="Done" id="5za-bA-7Ue">
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="5za-bA-7Ue">
                             <connections>
                                 <action selector="done:" destination="kIf-nA-PKG" id="v8R-uf-i5p"/>
                             </connections>

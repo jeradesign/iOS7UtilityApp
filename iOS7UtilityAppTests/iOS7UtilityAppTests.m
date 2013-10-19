@@ -3,7 +3,7 @@
 //  iOS7UtilityAppTests
 //
 //  Created by John Brewer on 10/17/13.
-//  Copyright (c) 2013 Jera Design LLC. All rights reserved.
+//  Jera Design LLC claims no copyright over this stub code.
 //
 
 #import <XCTest/XCTest.h>

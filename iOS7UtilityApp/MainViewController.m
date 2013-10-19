@@ -36,7 +36,9 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
-        [[segue destinationViewController] setDelegate:self];
+        UINavigationController *navigationController = [segue destinationViewController];
+        FlipsideViewController *flipsideViewController = (FlipsideViewController*)[navigationController topViewController];
+        [flipsideViewController setDelegate:self];
     }
 }
 
